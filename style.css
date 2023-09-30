@@ -1,0 +1,95 @@
+/* Reset some default styles for better consistency */
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ .container {
+  padding-top: 40vh;
+  position: relative;
+  /* border: 3px solid green; */
+}
+
+/*
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+} */
+
+/* Apply background color to the entire page */
+body {
+  background-color: #ffdbb2;
+  color: #3d5c69;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+/* Header and navigation styles */
+header {
+  background-color: #e0533f;
+  padding: 10px 0;
+  text-align: center;
+  font-family: "tt-travels-next", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+
+
+.coming-soon{
+  text-align: center;
+  font-family: "capitolina", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "tt-travels-next", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Main section styles */
+section {
+  padding: 40px;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #e0533f;
+  text-align: center;
+  padding: 10px 0;
+}
