@@ -14,6 +14,11 @@ p {
   /* border: 3px solid green; */
 }
 
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
 /*
 .vertical-center {
   margin: 0;
