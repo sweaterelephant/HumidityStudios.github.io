@@ -19,8 +19,8 @@ p {
 
 .image-container img {
   /* object-fit: contain; */
-  height: 110%;
-  width: 600px;
+  height: 100vh;
+  /* width: 600px; */
 
 }
 
@@ -30,7 +30,7 @@ p {
 
 .brooklyn img {
   /* padding-left: 60vh; */
-  height: 100%;
+  height: 100vh;
 }
 
 .brooklyn {
@@ -45,6 +45,7 @@ p {
   /* background-size: contain; */
   /* width: 10vw; */
   position: fixed;
+  z-index: 100;
   /* background-attachment: fixed; */
 
 }
