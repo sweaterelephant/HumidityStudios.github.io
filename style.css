@@ -8,6 +8,67 @@ p {
   box-sizing: border-box;
 }
 
+/*for desktop */
+
+ body {
+   background-image: url("/images/desktop/CLOUD_BKxJP.jpeg");
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center center;
+ }
+
+.image-container img {
+  /* object-fit: contain; */
+  height: 110%;
+  width: 600px;
+
+}
+
+.jaipur img{
+  margin-left: -30vh;
+}
+
+.brooklyn img {
+  /* padding-left: 60vh; */
+  height: 100%;
+}
+
+.brooklyn {
+  position: fixed;
+  right: -20vh;
+    /* text-align: right; */
+
+}
+
+.image-container {
+  /* background-image: url("/images/desktop/JP_BKxJP.png"); */
+  /* background-size: contain; */
+  /* width: 10vw; */
+  position: fixed;
+  /* background-attachment: fixed; */
+
+}
+
+@media only screen and (max-width: 768px) {
+  /* For desktop: */
+    body {
+      background-image: url("/images/mobile/mobile-CLOUD_BKxJP.jpeg");
+      background-size: cover;
+    }
+
+    .image-container {
+      display: none;
+    }
+
+}
+
+
+/* 
+.brooklyn {
+
+} */
+
+
  .container {
   padding-top: 40vh;
   position: relative;
